@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Poppins:wght@800&family=Roboto+Condensed:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  top: 0;
+}
+
+.showcase {
+  padding: 5px;
+  margin: 5px;
+}
+
+.showcase header {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+
+.descrip {
+  position: relative;
+  z-index: 10;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+.sub-msj-header {
+  font-size: 18px;
+}
+
+.secciones {
+  position: relative;
+  left: 10px;
+  padding: 0px;
+  margin: 10px;
+  z-index: 10;
+  font-size: 16px;
+}
+
+.showcase .secciones ul {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.secciones ul li {
+  display: inline-block;
+}
+
+.secciones ul li a {
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 12px;
+  margin: 5px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 100px;
+}
+
+.secciones ul li a:hover {
+  background-color: rgb(191, 176, 65);
+}
+
+.textos {
+  position: relative;
+  z-index: 10;
+  color: rgb(255, 255, 255);
+  padding: 100px;
+  right: 90px;
+}
+
+.textos h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1em;
+}
+.textos h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 2em;
+}
+
+.textos .infoo-artist {
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 400;
+  margin-right: 500px;
+}
+
+.fondo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  height: 100%;
+}
+
+footer {
+  color: rgba(247, 245, 235, 0.879);
+  background-color: rgb(17, 16, 18);
+  padding: 5px;
+}
